@@ -265,11 +265,11 @@ textarea {
 
     .skill-container,
     .resume-container,
-    footer {
+    footer ,.about-info-container {
         flex-direction: column;
     }
 
-    footer {
+    footer , .about{
         padding: 20px;
     }
 

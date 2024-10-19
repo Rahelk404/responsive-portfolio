@@ -79,8 +79,12 @@ nav a {
 }
 
 .banner .profile-pic {
-    width: 620px;
-    height: 675px;
+    /* width: 620px; */
+    /* height: 675px; */
+}
+.profile-pic img{
+    width: 100%;
+    height: 100%;
 }
 
 .banner-greeting {
@@ -265,10 +269,39 @@ textarea {
 
     .skill-container,
     .resume-container,
-    footer ,.about-info-container {
+     footer ,
+    .about-info-container,
+    .banner,
+    .nav-title ,
+    nav,
+    nav > ul {
         flex-direction: column;
     }
 
+    nav > ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-right: 20px;
+       margin-top: 20px;
+    }
+    .header_cls{
+        background-image: none;
+    }
+    .banner{
+        padding: 0;
+    }
+    .profile-pic{
+       /* width: 100px;
+       height: 200px; */
+    }
+
+    .profile-pic img{
+        position: relative;
+        top: 5px;
+        width: 100%;
+       height: 100%;
+    }
     footer , .about{
         padding: 20px;
     }

@@ -154,7 +154,7 @@ main section {
 /* skills related style  */
 
 #what-i-do-description {
-    padding: 30px 150px;
+    /* padding: 30px 150px; */
 }
 
 .skill-container {
@@ -256,4 +256,11 @@ font-size: 15px;
 
 .hide{
     display: none;
+}
+
+@media screen and (max-width:576px) {
+   
+    .skill-container{
+        flex-direction: column;
+    }
 }
